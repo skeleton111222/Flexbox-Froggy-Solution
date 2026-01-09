@@ -1,0 +1,164 @@
+/* Question 1: Move frog to the right */
+#pond {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Question 2: Center frog horizontally */
+#pond {
+  display: flex;
+  justify-content: center;
+}
+
+/* Question 3: Space around lilypads */
+#pond {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Question 4: Space between lilypads */
+#pond {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Question 5: Align frog to bottom */
+#pond {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Question 6: Center frog both horizontally and vertically */
+#pond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Question 7: Space around horizontally, bottom vertically */
+#pond {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* Question 8: Reverse row direction */
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Question 9: Column direction */
+#pond {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Question 10: Row-reverse + justify-content */
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+/* Question 11: Column direction + justify-content vertical */
+#pond {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Question 12: Column-reverse + space between */
+#pond {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+/* Question 13: Row-reverse + center + bottom */
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* Question 14: Order property for yellow frog */
+.yellow {
+  order: 2;
+}
+
+/* Question 15: Order property for red frog */
+.red {
+  order: -3;
+}
+
+/* Question 16: Align-self for yellow frog */
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+  align-self: flex-end;
+}
+
+/* Question 17: Combine order and align-self for yellow frog */
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+  order: 2;
+  align-self: flex-end;
+}
+
+/* Question 18: Wrap frogs to multiple lines */
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Question 19: Column direction + wrap */
+#pond {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* Question 20: Shorthand for flex-direction + wrap */
+#pond {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* Question 21: Align multiple lines to top */
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+/* Question 22: Align multiple lines to bottom */
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+/* Question 23: Column-reverse + center lines */
+#pond {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* Question 24: Complex final example */
+#pond {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  justify-content: center;
+  align-content: space-between;
+}
